@@ -52,7 +52,7 @@ header {
        column-gap: 12px;
 }
 .icons i:hover {
-  background-color: #e3f0ff;
+  background-color: black;
 }
 .icons i {
   background-color: white;
