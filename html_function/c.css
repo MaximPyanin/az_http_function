@@ -1,0 +1,655 @@
+body {
+  background-color: #edf5ff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Segoe UI Symbol;
+  font-size: 14px;
+}
+
+header {
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 140px;
+  height: 35px;
+}
+
+.menu {
+  font-weight: bold;
+  font-size: medium;
+  padding-left: 315px;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}
+.menu a {
+  text-decoration: none;
+  color: #191919;
+}
+.menu a:hover {
+  color: #1876d1;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 12px;
+       column-gap: 12px;
+}
+.icons i:hover {
+  background-color: #e3f0ff;
+}
+.icons i {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 8px;
+  height: 25px;
+  width: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  padding-top: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.b1 {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  height: 47px;
+  width: 120px;
+  border: 0;
+  font-weight: bold;
+}
+
+.b2 {
+  border-radius: 10px;
+  height: 47px;
+  width: 120px;
+  background-color: #edf5ff;
+  color: #191919;
+  font-weight: bold;
+  border: 1px solid grey;
+}
+
+.item1 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item1 p {
+  margin: 0;
+}
+
+.item1:hover {
+  background-color: #e3f0ff;
+}
+
+.item2 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item2 p {
+  margin: 0;
+}
+
+.item2:hover {
+  background-color: #e3f0ff;
+}
+
+.item3 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item3 p {
+  margin: 0;
+}
+
+.item3:hover {
+  background-color: #e3f0ff;
+}
+
+.item4 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item4 p {
+  margin: 0;
+}
+
+.item4:hover {
+  background-color: #e3f0ff;
+}
+
+.item5 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item5 p {
+  margin: 0;
+}
+
+.item5:hover {
+  background-color: #e3f0ff;
+}
+
+.item6 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item6 p {
+  margin: 0;
+}
+
+.item6:hover {
+  background-color: #e3f0ff;
+}
+
+.item7 {
+  height: 170px;
+  width: 170px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.item7 p {
+  margin: 0;
+}
+
+.item7:hover {
+  background-color: #e3f0ff;
+}
+
+.items {
+  padding-left: 450px;
+  padding-top: 50px;
+  padding-right: 400px;
+}
+
+main {
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  z-index: -1;
+  background-color: #73879e;
+  width: 100%;
+  top: 340px;
+  height: 100px;
+}
+
+.items {
+  display: grid;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+  grid-template-areas: ". b ." "a b c" "a d c" "f d e" "f g e" ". g .";
+}
+
+.item1 {
+  grid-area: a;
+}
+
+.item2 {
+  grid-area: b;
+}
+
+.item3 {
+  grid-area: c;
+}
+
+.item4 {
+  grid-area: d;
+}
+
+.item5 {
+  grid-area: e;
+}
+
+.item6 {
+  grid-area: f;
+}
+
+.item7 {
+  grid-area: g;
+}
+
+/*
+body{
+    background-color: #edf5ff;
+    font-weight: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, Segoe UI Symbol;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.menu{
+    margin-left: 450px;
+    a{
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        margin-right: 55px;
+        border-radius: 9px;
+    }
+    a:hover{
+        background-color: #e3f0ff;
+    }
+}
+
+.logo{
+    max-height: 35px;
+    max-width: 140px;
+}
+
+.icons{
+    i{
+        height: 17px;
+        width: 17px;
+        padding: 5px;
+        background-color: white;
+        border: 1px solid #c7e0ff;
+        border-radius: 7px;
+    }
+    i:hover{
+        background-color: #e3f0ff;
+    }
+}
+
+.pasek{
+    position: absolute;
+    background-color: #e3f0ff;
+    width: 100%;
+    height: 90px;
+    left: 0;
+    bottom: 250px;
+    z-index: -1;
+
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #c7e0ff;
+    background-color: white;
+    border-radius: 10px;
+    .title,
+    .description{
+        margin: 0;
+    }
+    .title{
+        margin-top: 10px;
+        font-weight: bold;
+    }
+}
+
+main{
+    padding-left: 490px;
+    padding-right: 490px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    background-color: #1876d1;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.button-2{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #c7e0ff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+}
+
+.items{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: ". b ."
+    "a b c"
+    "a d c"
+    "f d e"
+    "f g e"
+    ". g .";
+}
+.item-1{
+    grid-area: a;
+}
+.item-2{
+    grid-area: b;
+}
+.item-3{
+    grid-area: c;
+}
+.item-4{
+    grid-area: d;
+}
+.item-5{
+    grid-area: e;
+}
+.item-6{
+    grid-area: f;
+}
+.item-7{
+    grid-area: g;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6,
+.item-7{
+    &:hover{
+        font-size: larger;
+    }
+
+}
+
+
+@import '_variables';
+body{
+   background-color: $body-bg-color;
+   font-size: 14px;
+   body {
+    font-family: $font;
+  }
+}
+%f{
+    height: 16px;
+    width: 16px; 
+}
+.hh{
+    padding-left: 45px;
+}
+i{
+
+    background-color: white;
+    padding: 5px;
+
+    border: 1px solid #9fb0c5;
+    border-radius: 8px;
+    @extend %f
+}
+i:hover{
+    background-color: #e3f0ff;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    column-gap: 35px;
+    font-size: larger;
+    padding-top: 3px;
+    padding-left: 350px;
+}
+
+header{
+    a {
+        text-decoration: none;
+        color: $black-diff;
+    }
+
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    img{
+        width: 140px;
+        height: 35px;
+        padding-left: 70px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        padding-top: 0;
+        flex-direction: row;
+        column-gap: 42px;
+        padding-left: 490px;
+        color: $black-diff;
+    }
+    ul:hover{
+        background-color: $body-bg-color;
+    }
+}
+.hh{
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+}
+
+ i:hover{
+     background-color: $body-bg-color ;
+ }
+ .item{
+    h3{
+        font-weight: bold;
+    }
+ }
+ main{
+    display: grid;
+    column-gap: 50px;
+    row-gap: 20px;
+    position: relative;
+    margin-top: 100px;
+
+    grid-template-areas: 
+    ". c c e e ."
+    "b b d d g g"
+    ". a a f f .";
+    align-items: center;
+    justify-content: center;
+
+
+.item{
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 10px; 
+    background-color: white;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3{
+        margin-top: 10px;
+    }
+    p{
+        margin: 0;
+    }
+
+  }
+
+ }
+ .buttons{
+    display: flex;
+    height: 32px;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 37px;
+    column-gap: 9px;
+    button{
+        border-radius: 8px; 
+    }
+    .button-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 140px;
+        height: 40px;
+        background-color:$hover-tile-bg-and-button-bg;
+        border: 0;
+    }
+    .button-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 40px;
+        color: $black-diff;
+        background-color: $body-bg-color;
+        border: 1px solid rgb(182, 182, 235);
+    }
+
+ }
+.item:hover{
+    background-color: $hover-button-bg;
+}
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7{
+  display: flex;
+  height: 170px;
+  width: 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+
+.c{
+    position: absolute;
+    z-index: -1;
+    bottom: 100px;
+    width: 100%;
+    height: 200px; 
+    background-color: red;
+}
+
+
+.item1{
+    grid-area: a;
+}
+.item2{
+    grid-area: b;
+}
+.item3{
+    grid-area: c;
+}
+.item4{
+    grid-area: d;
+}
+.item5{
+    grid-area: e;
+}
+.item6{
+    grid-area: f;
+}
+.item7{
+    grid-area: g;
+}
+
+
+main{
+    img{
+        padding-top: 4px;
+    }
+}
+*/
+/*
+ grid-template-areas: 
+    ". c c e e ."
+    "b b d d g g"
+    ". a a f f .";
+    *//*# sourceMappingURL=c.css.map */
