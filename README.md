@@ -23,4 +23,3 @@ Send a GET request to your function's URL to receive the HTML page.
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
