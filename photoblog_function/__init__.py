@@ -2,9 +2,9 @@ import azure.functions as func
 
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
-    if req.method == 'GET':
+    if req.method == "GET":
         return func.HttpResponse(
-            body='''
+            body="""
             <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -262,7 +262,7 @@ main .h .th .number {
   </main>
 </body>
 </html>
-            ''',
+            """,
             status_code=200,
-            mimetype='text/html'
+            mimetype="text/html",
         )

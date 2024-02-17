@@ -1,10 +1,10 @@
 import azure.functions as func
 
 
-def main(req:func.HttpRequest) -> func.HttpResponse:
+def main(req: func.HttpRequest) -> func.HttpResponse:
     if req.method == "GET":
         return func.HttpResponse(
-            body='''<!DOCTYPE html>
+            body="""<!DOCTYPE html>
                  <html lang="en">
                  <head>
   <meta charset="UTF-8">
@@ -342,7 +342,7 @@ header .right i {
 </div>
 </main>
 </body>
-</html>''',
-        status_code=200,
-        mimetype='text/html'
+</html>""",
+            status_code=200,
+            mimetype="text/html",
         )
