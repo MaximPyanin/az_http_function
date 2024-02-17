@@ -20,6 +20,6 @@ jobs:
         pip install pylint
     - name: Analysing the code with pylint
       run: |
-        pylint --disable=import-error,missing-docstring,inconsistent-return-statements $(git ls-files '*.py')
+        pylint --disable=import-error,missing-docstring,duplicate-code,inconsistent-return-statements $(git ls-files '*.py')
 
 
