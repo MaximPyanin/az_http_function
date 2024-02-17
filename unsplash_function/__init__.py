@@ -156,6 +156,74 @@ footer .right-section a {
 }
 .main .pic {
   background-color: rgb(237, 215, 186);
+}
+
+header {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 3px;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+}
+header .logo {
+  font-weight: bold;
+  color: black;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+header input {
+  border: 1px solid rgb(206, 198, 198);
+  border-radius: 10px;
+  width: 750px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+header button {
+  border: 0;
+  color: gray;
+  background-color: white;
+  font-size: medium;
+}
+header button:nth-of-type(3) {
+  border-right: 1px solid rgb(165, 158, 158);
+  padding-right: 17px;
+}
+header #submit {
+  border: 1px solid gray;
+  background-color: white;
+}
+header i {
+  padding-left: 20px;
+  font-size: 24px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 19px;
+       column-gap: 19px;
+  padding-left: 5px;
+  padding-left: 4px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nav button {
+  border: 0;
+  background-color: white;
+  color: gray;
+}
+nav .active {
+  color: black;
+  font-weight: bold;
+}
+nav .separator {
+  border-right: 1px solid rgb(194, 184, 184);
 }/*# sourceMappingURL=unsplash.css.map */
     </style>
   </head>
