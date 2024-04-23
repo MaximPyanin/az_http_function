@@ -1,11 +1,4 @@
-import azure.functions as func
-
-
-def main(req: func.HttpRequest) -> func.HttpResponse:
-    if req.method == "GET":
-        return func.HttpResponse(
-            body="""
-            <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -202,67 +195,48 @@ main .h .th .number {
 <body>
   <header>
 <div class="logo">
-  <h3>  A'laPhoto<span class="s">Blog.pl</span></h3>
+  <h3>  A'laPhoto<span class="s">Blog.com</span></h3>
 </div>
 <div class="buttons">
-<button class="b1">Zaloguj się</button>
-<button class="b2">Załóż konto</button>
+<button class="b1">Login</button>
+<button class="b2">Register</button>
 </div>
   </header>
   <main>
     <div class="h">
 <div class="o">
-<p><span class="number">709</span><br>Obserwujących</p>
+<p><span class="number">709</span><br>Subscribers</p>
 </div>
-<div class="t"><p><span class="number">125</span><br>Obserwowanych</p></div> 
+<div class="t"><p><span class="number">125</span><br></p></div> 
 <div class="th">
-<p><span class="number">1605</span><br>Wpisów</p>
+<p><span class="number">1605</span><br>Posts</p>
 </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="main">
   <div class="square">
   </div>
   <div class="small">
     <div class="oval"></div>
-    <button><i class="fas fa-plus"></i>         Obserwuj</button>
+    <button><i class="fas fa-plus"></i>         Follow</button>
   <div class="buttons">
   <i class="fas fa-check"> Monika</i>
   <i class="fas fa-map-marker-alt"> Gdańsk</i>
 </div>
-  <button class="bb">O mnie</button>
-  <button class="bb">Wyślij wiadomość</button>
+  <button class="bb">About me</button>
+  <button class="bb">Send message</button>
 </div>
-<p><span class="w">Wyświetleń:</span> <span class="niew">1806</span></p>
+<p><span class="w">Views:</span> <span class="niew">1806</span></p>
 <div class="str">
 <i class="fas fa-chevron-left"></i>
 <i class="fas fa-chevron-right"></i>
 </div>
   </div>
   <div class="k">
-    <p><span class="sty">Sty</span> <span class="8">8</span><span class="2016">2016</span></p>
+    <p><span class="sty">Jan</span> <span class="8">8</span><span class="2016">2016</span></p>
   </div>
   <div class="aa">
-    <p><span class="faj">Fajne</span> <span class=233>232</span></p>
+    <p><span class="faj">Cool</span> <span class=233>232</span></p>
   </div>
   </main>
 </body>
 </html>
-            """,
-            status_code=200,
-            mimetype="text/html",
-        )
