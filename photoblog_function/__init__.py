@@ -1,3 +1,10 @@
+import azure.functions as func
+
+
+def main(req: func.HttpRequest) -> func.HttpResponse:
+    if req.method == "GET":
+        return func.HttpResponse(
+            body="""
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -189,7 +196,7 @@ main .h .th .number {
   row-gap: 4px;
   align-self: flex-start;
   padding-left: 16px;
-}/*# sourceMappingURL=photo.css.map */
+}
   </style>
 </head>
 <body>
@@ -240,3 +247,7 @@ main .h .th .number {
   </main>
 </body>
 </html>
+""",
+            status_code=200,
+            mimetype="text/html",
+        )

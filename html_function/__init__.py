@@ -228,121 +228,37 @@ header .right i {
 .content .column {
   display: grid;
   row-gap: 9px;
-}/*# sourceMappingURL=style (2).css.map */
+}
  </style>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-  <title>Document</title>
+<title>Document</title>
 </head>
 <header>
     <i class="fab fa-pinterest"></i>
-    <button>Glowna Strona</button>
+    <button>Main Page</button>
     
     <form action="/search" method="get">
-      <input type="search" name="q" placeholder="szukaj">
+      <input type="search" name="q" placeholder="search">
     </form>
  
     <div class="right">
       <i class="fa-solid fa-bell"></i>
       <i class="fa-solid fa-comment"></i>
     </div>
-  </header>
+</header>
 <main>
 <div class="header2">
-<p>Używamy plików cookie, aby wyświetlać spersonalizowane reklamy i treści oraz analizować ruch w naszej witrynie. Więcej<br> informacji znajdziesz w naszym dokumencie <a href="#">Zasady dotyczące plików cookie.</a>
-</p>
-  <button>Zaakceptuj wszystkie</button>
-  <button>Odrzuć wszystkie</button>
-  <button>Chcę wybrać samodzielnie</button>  
+<p>We use cookies to display personalized ads and content and to analyze traffic on our site. More<br> information can be found in our document <a href="#">Cookie Policy.</a></p>
+  <button>Accept All</button>
+  <button>Reject All</button>
+  <button>I want to choose myself</button>  
 </div>
 <div class="content">
-  <div class="column">
-   <div class="pic">
-   </div>
-   <div class="pic">
-   </div>
-   <div class="pic">
-  </div>
-  <div class="pic">
-  </div>
-  <div class="pic">
-  </div>
-  <div class="pic">
-  </div>
-  </div>
-  <div class="column">
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-  </div>
-  <div class="column">
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-  </div>
-  <div class="column">
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-  </div>
-  <div class="column">
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-  </div>
-  <div class="column">
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-    <div class="pic">
-    </div>
-  </div>
 </div>
 </main>
 </body>
-</html>""",
+</html>
+""",
             status_code=200,
             mimetype="text/html",
         )

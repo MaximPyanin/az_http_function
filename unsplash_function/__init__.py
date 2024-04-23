@@ -224,7 +224,7 @@ nav .active {
 }
 nav .separator {
   border-right: 1px solid rgb(194, 184, 184);
-}/*# sourceMappingURL=unsplash.css.map */
+}
     </style>
   </head>
   <body>
@@ -269,7 +269,7 @@ nav .separator {
           <button class="search">
             <i class="fas fa-search"></i>
           </button>
-          <input type="text" name="search" id="search" placeholder="Szukaj" />
+          <input type="text" name="search" id="search" placeholder="Search" />
         </div>
         <div class="trending">
           <span>Trending:</span>
